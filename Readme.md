@@ -1,5 +1,5 @@
 # Wallet Application
-![image](./frontend/src/assets/gitAsset.png "Logo Title Text 1")
+
 
 The Wallet Application is a full-stack web application built using the **MERN** stack (MongoDB, Express.js, React.js, Node.js) that allows users send money, request money, add balance, accept payment, accept payment requets. It provides a user-friendly interface for organizing transactions and gaining insights into spending habits.
 
@@ -72,16 +72,4 @@ VITE_URL=https://mern-wallet-two.onrender.com
  - accept money request and pay amount
  - add balance to our account
  - verify user after registration (ADMIN)
-
-
-### API docs
-to view api docs [click here](https://documenter.getpostman.com/view/8886902/2s93ebRVyS)
-
-### deployed version
-
-to view live [click here](https://easypay-seven.vercel.app)
-
-### video explanation
-
-live video explanation [click here](https://youtu.be/KYcF1jd3X3Q)
 
