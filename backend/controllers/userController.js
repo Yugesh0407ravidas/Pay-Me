@@ -20,7 +20,7 @@ const register = asyncHandler(async (req, res) => {
     moneySend,
     requestReceived,
   } = req.body
-
+  console.log(req.body);
   if (
     !name ||
     !email ||
@@ -166,7 +166,7 @@ const getImage = asyncHandler(async (req, res) => {
 })
 
 const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, {
+  return jwt.sign({ id }, process.env.JWT_SECRET || "jkldjlkdj", {
     expiresIn: '30d',
   })
 }
